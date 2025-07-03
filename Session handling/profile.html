@@ -1,0 +1,9 @@
+<html>
+    <body>
+        Welcome <p id="name"></p>
+        <script>
+            const names=sessionStorage.getItem("username");
+            document.getElementById("name").innerHTML=names;
+        </script>
+    </body>
+</html>
